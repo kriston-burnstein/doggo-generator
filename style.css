@@ -27,7 +27,7 @@ html {
      border: 2px solid red;
      font-size: 2rems;
      font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
-     background: linear-gradient(rgb(203, 255, 254), cadetblue, darkblue);
+     background: linear-gradient(rgb(203, 255, 254), cadetblue, rgb(0, 29, 95));
 }    
 
 header {
@@ -44,16 +44,35 @@ select {
      display: flex;
      flex-direction: row;
      border: 2px solid blue;
-
+     padding-left: 10vw;
+     padding-right: 10vw;
 }
 
 .column {
+     flex: 1;
      border: 2px solid green;
 }
 
-body {
+img {
+     max-width: 900px;
+     max-height: 700px;
+}
+
+span {
+     font-weight: bold;
+     text-decoration: underline;
+     font-size: 1.3rem;
+}
+
+#dog-name {
+     font-size: 2rem;
+     text-decoration: none;
      
 }
+
+
+
+
 
 /******************************************
 /* LAYOUT
