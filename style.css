@@ -24,16 +24,15 @@
 /* BASE STYLES
 /*******************************************/
 html {
-     border: 2px solid red;
-     font-size: 2rems;
+     font-size: 1.3rem;
      font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
      background: linear-gradient(rgb(203, 255, 254), cadetblue, rgb(0, 29, 95));
+     height: 100vh;   
 }    
 
 header {
      margin-bottom: 30px;
      text-align: center;
-     border: 2px solid green;
 }
 
 select {
@@ -43,19 +42,17 @@ select {
 .section-container {
      display: flex;
      flex-direction: row;
-     border: 2px solid blue;
      padding-left: 10vw;
      padding-right: 10vw;
 }
 
 .column {
      flex: 1;
-     border: 2px solid green;
 }
 
 img {
-     max-width: 900px;
-     max-height: 700px;
+     max-width: 700px;
+     max-height: 500px;
 }
 
 span {
@@ -68,6 +65,10 @@ span {
      font-size: 2rem;
      text-decoration: none;
      
+}
+
+#left-column {
+     text-align: center;
 }
 
 
