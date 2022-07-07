@@ -70,7 +70,7 @@ fetch(BREEDS_URL)
 
         assignName(arr) {
             this.rname = arr[Math.floor(Math.random() * arr.length)]
-            document.getElementById('dog-name').innerHTML = `${this.rname}`
+            document.getElementById('dog-name').innerHTML = `Meet ${this.rname}!`
         },
 
         assignAge() {

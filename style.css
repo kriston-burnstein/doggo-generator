@@ -25,7 +25,7 @@
 /*******************************************/
 html {
      font-size: 1.3rem;
-     font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
      background: linear-gradient(rgb(183, 252, 251), cadetblue, rgb(0, 29, 95));
      height: 110vh;   
 }    
@@ -36,8 +36,22 @@ header {
 }
 
 select {
-     font-size: 1.1rem;
+     font-size: 1rem;
+     background: cadetblue;
+     border: cadetblue;
+     border-radius: 4px;
+     color: black;
+     margin: 20px;
+     height: 1.5rem;
+     width: 40%;
 }
+
+/* only capitalizes text in the dropdown, not after selected,
+need to capitalize in the js; if I had more time, I would capitalize the dropdown and after selected as well
+
+option {
+     text-transform: capitalize;
+} */
 
 .section-container {
      display: flex;
@@ -62,9 +76,14 @@ span {
 }
 
 #dog-name {
-     font-size: 2rem;
+     font-size: 2.5rem;
      text-decoration: none;
-     color: white;
+     color: cadetblue;
+     font-style: italic;
+     
+     
+     
+     
      
 }
 
