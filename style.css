@@ -26,8 +26,8 @@
 html {
      font-size: 1.3rem;
      font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
-     background: linear-gradient(rgb(203, 255, 254), cadetblue, rgb(0, 29, 95));
-     height: 100vh;   
+     background: linear-gradient(rgb(183, 252, 251), cadetblue, rgb(0, 29, 95));
+     height: 110vh;   
 }    
 
 header {
@@ -51,8 +51,8 @@ select {
 }
 
 img {
-     max-width: 700px;
-     max-height: 500px;
+     max-width: 450px;
+     max-height: 400px;
 }
 
 span {
@@ -64,6 +64,7 @@ span {
 #dog-name {
      font-size: 2rem;
      text-decoration: none;
+     color: white;
      
 }
 
